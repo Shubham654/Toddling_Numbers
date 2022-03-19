@@ -97,7 +97,7 @@ function checkAnswer() {
 
   const prediction = predictImage();
   let pred = prediction.toString();
-  let api = "https://numbersapi.com/";
+  let api = "http://numbersapi.com/";
   let apiURL = api.concat(pred);
   const api_fact = numberAPI(apiURL);
   console.log(`Api_string: ${api_fact}`);
