@@ -167,7 +167,7 @@ section {
   text-align: center;
   margin: 0 auto;
   transition: all 0.3s ease-in-out;
-  background: -webkit-linear-gradient(#3358bb, #3d0d58);
+  background: black;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

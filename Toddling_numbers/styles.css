@@ -1,7 +1,7 @@
 body {
-  background-image: url("bg.jpg");
+  background-image: url("bg_color.jpg");
   font-family: 'Just Another Hand', cursive;
-  background-color: ;
+  background-color:rgb(207, 178, 50); ;
   width: 100%;
   background-position: center center;
   background-repeat: no-repeat;
@@ -93,6 +93,18 @@ body {
   height: 100%;
   width: 100%;
 }
+
+.hungry {
+  position: absolute !important;
+  left: 60vw !important;
+  top: 45vh !important;
+}
+
+.hungry img {
+  width: 30%;
+  filter: brightness(1.0);
+}
+
 
 /* SVG Animation */
 svg {
