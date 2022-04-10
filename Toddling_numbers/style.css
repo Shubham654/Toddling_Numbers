@@ -172,6 +172,28 @@ section {
   -webkit-text-fill-color: transparent;
 }
 
+.text2 h3 {
+  font-family: 'Titan One',cursive;
+  transform: rotate(-13deg);
+  font-size: 17px;
+  /* color: rgb(0, 0, 0); */
+  letter-spacing: 8px;
+  line-height: 1.3;
+  flex-flow:row wrap;
+  /* align-content:center; */
+  /* justify-content:center; */
+  position:absolute;
+  top: 43vh;
+  left: 17vw;
+
+
+  text-align: center;
+  margin: 0 auto;
+  transition: all 0.3s ease-in-out;
+  background: black;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 
 .pngtext img {

@@ -108,7 +108,7 @@ function checkAnswer() {
     score++;
     console.log(`Correct! Score: ${score}`);
     score.toString();
-    document.getElementById('astronaut_talk').innerText = "Correct! Score: "+score+"\n"+"\n"+api_fact;
+    document.getElementById('toddler_talk').innerText = "Correct! Score: "+score+"\n"+"\n"+api_fact;
 
 
     if (score <= 6) {
@@ -124,7 +124,7 @@ function checkAnswer() {
     }
 
     score.toString();
-    document.getElementById('astronaut_talk').innerText ="\n\n\n\n"+"Wrong! Score: "+score;
+    document.getElementById('toddler_talk').innerText ="\n\n\n\n"+"Wrong! Score: "+score;
 
     alert('Oops! Wrong answer. ');
     setTimeout(function() {
